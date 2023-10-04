@@ -1,0 +1,18 @@
+Chaque ligne représente le nombre de vélos d'un système de vélos partagés utilisés pendant une heure donnée
+
+* datetime : date et heure
+* season :  1 = printemps, 2 = été, 3 = automne, 4 = hiver 
+* holiday : jour de congé
+* workingday : jour travaillé
+* weather : 
+    * 1: Temps clair ou un peu couvert
+    * 2: Nuageux
+    * 3: Pluie ou neige légère
+    * 4: Grosse pluies ou neige
+* temp : température réelle
+* atemp : température ressentie
+* humidity : humidité relative
+* windspeed : vitesse du vent
+* casual : nombre de vélos utilisés par des utilisateurs ocasionnels
+* registered : nombre de vélos utilisés par des abonnés
+* count : nombre de vélos utilisés

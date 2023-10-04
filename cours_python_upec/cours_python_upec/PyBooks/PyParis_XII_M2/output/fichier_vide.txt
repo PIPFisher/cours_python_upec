@@ -1,0 +1,2 @@
+id : 1respid : 1extrtime : 15/01/2016 10:12:21origin : CDGdestination : NTEcompany : Air Francedepdate : 2016-03-15T12:35:00arrdate : 2016-03-15T13:40:00duration : 1,0833333333333333flighttype : aller simpleprice : 52stopover : Sans escalestopovertime
+ : 

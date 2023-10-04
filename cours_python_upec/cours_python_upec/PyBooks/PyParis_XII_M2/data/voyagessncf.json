@@ -1,0 +1,3217 @@
+{
+    "busInfo": {
+        "deeplink": "https://www.voyages-sncf.com/bus-reservation/#recherche?origin=u09tvm&destination=spey63&outboundDate=2017-10-14&adult=1&child=0&senior=0"
+    },
+    "calendarAccess": {
+        "enabled": true,
+        "parameters": {
+            "data": "{\"fidelityCardNumbers\":[\"\"],\"happyCardNumber\":\"\",\"happyCardBirthDate\":\"\",\"originLocation\":{\"id\":null,\"label\":null,\"longitude\":null,\"latitude\":null,\"type\":null,\"country\":null,\"stationCode\":\"FRPAR\",\"stationLabel\":null},\"destinationLocation\":{\"id\":null,\"label\":null,\"longitude\":null,\"latitude\":null,\"type\":null,\"country\":null,\"stationCode\":\"FRMRS\",\"stationLabel\":null}}"
+        },
+        "url": "https://calendar.voyages-sncf.com/FRPAR/FRMRS/20171014/ONE_WAY/2/26-NO_CARD?lang=fr&onlyDirectTrains=false"
+    },
+    "clientInformations": {
+        "correlationId": "fc035d33-e81e-4126-ac6a-b3af8a5454ae",
+        "requestId": "b6e6e506-44b3-4a9e-8863-bef55428ce73"
+    },
+    "containsFirstTrainOfDay": false,
+    "containsLastTrainOfDay": false,
+    "individualAdvantageCodeWarningsEnabled": false,
+    "international": false,
+    "itineraryDetails": {
+        "destination": {
+            "cityCode": "FRMRS",
+            "cityLabel": "MARSEILLE",
+            "cityLabelFr": "MARSEILLE",
+            "outsideFrance": false,
+            "stationCode": null,
+            "stationLabel": null,
+            "stationLabelFr": null,
+            "zipCode": "13"
+        },
+        "international": false,
+        "origin": {
+            "cityCode": "FRPAR",
+            "cityLabel": "PARIS",
+            "cityLabelFr": "PARIS",
+            "outsideFrance": false,
+            "stationCode": null,
+            "stationLabel": null,
+            "stationLabelFr": null,
+            "zipCode": "75"
+        }
+    },
+    "promoCodeTypes": {},
+    "queryValidForSeatmap": true,
+    "results": [
+        {
+            "arrivalDate": "2017-10-14T17:16:00",
+            "containsTgvPopFares": false,
+            "departureDate": "2017-10-14T12:59:00",
+            "destination": "MARSEILLE SAINT CHARLES",
+            "destinationCode": "FRMSC",
+            "duration": 15420000,
+            "hasPerturbations": false,
+            "id": "e71106e3-fae7-420b-94aa-4bb18b8d4ffe",
+            "journeyId": "1",
+            "origin": "PARIS GARE DE LYON",
+            "originCode": "FRPLY",
+            "priceProposals": {
+                "FLEX": {
+                    "amount": 102.0,
+                    "amountWithMandatorySpaceComfort": 102.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": true,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "1",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "BF",
+                                    "cosLevel": "04",
+                                    "fakeFare": false,
+                                    "fareCode": "FA00",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable sans frais jusqu'au d\u00e9part et jusqu'\u00e0 deux heures apr\u00e8s d\u00e9part en gare de d\u00e9part.  En mobilit\u00e9, \u00e9change sans frais jusqu'\u00e0 1h apr\u00e8s le d\u00e9part via l'application TGV Pro ou par t\u00e9l\u00e9phone au 3635.",
+                                    "fareName": "TGV PRO 2nde",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 1
+                                },
+                                {
+                                    "classOfService": "BF",
+                                    "cosLevel": "04",
+                                    "fakeFare": false,
+                                    "fareCode": "FA00",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable sans frais jusqu'au d\u00e9part et jusqu'\u00e0 deux heures apr\u00e8s d\u00e9part en gare de d\u00e9part.  En mobilit\u00e9, \u00e9change sans frais jusqu'\u00e0 1h apr\u00e8s le d\u00e9part via l'application TGV Pro ou par t\u00e9l\u00e9phone au 3635.",
+                                    "fareName": "TGV PRO 2nde",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 2
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 102.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "AFF",
+                            "flexibility": 3,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "MOM",
+                                        "currency": "EUR",
+                                        "description": "Espace 2nde classe prioritairement r\u00e9serv\u00e9 aux familles",
+                                        "name": "Espace Familles",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_FAMILLE"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_COTE_A_COTE"
+                                ],
+                                "segmentId": 1,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        },
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "AFF",
+                            "flexibility": 3,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "MOM",
+                                        "currency": "EUR",
+                                        "description": "Espace 2nde classe prioritairement r\u00e9serv\u00e9 aux familles",
+                                        "name": "Espace Familles",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_FAMILLE"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_COTE_A_COTE"
+                                ],
+                                "segmentId": 2,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "FLEX"
+                },
+                "UPSELL": {
+                    "amount": 115.6,
+                    "amountWithMandatorySpaceComfort": 115.6,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": false,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "2",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "AG",
+                                    "cosLevel": "10",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 1
+                                },
+                                {
+                                    "classOfService": "AG",
+                                    "cosLevel": "14",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 2
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 115.6,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "A",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "CAL",
+                                        "currency": "EUR",
+                                        "description": "Espace 1\u00e8re classe d\u00e9di\u00e9 au silence et @ la tranquillit\u00e9 des voyageurs",
+                                        "name": "Espace Calme 1\u00e8re",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_CALME"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_VIS_A_VIS",
+                                    "DUO_COTE_A_COTE",
+                                    "SOLO"
+                                ],
+                                "segmentId": 1,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "FIRST"
+                        },
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "A",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_VIS_A_VIS",
+                                    "DUO_COTE_A_COTE",
+                                    "SOLO"
+                                ],
+                                "segmentId": 2,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "FIRST"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "UPSELL"
+                }
+            },
+            "pushPrice": null,
+            "pushProposal": false,
+            "pushProposalType": null,
+            "realTimeInformations": null,
+            "segments": [
+                {
+                    "arrivalDate": "2017-10-14T14:56:00",
+                    "availablePhysicalSpaces": [
+                        "A",
+                        "B"
+                    ],
+                    "baseClasses": null,
+                    "bookingType": "RN",
+                    "boundaryPoint": null,
+                    "carrierCode": "SN",
+                    "departureDate": "2017-10-14T12:59:00",
+                    "destination": "LYON PART DIEU",
+                    "destinationCode": "FRLPD",
+                    "destinationDetail": {
+                        "cityCode": "FRLYS",
+                        "cityLabel": "LYON",
+                        "cityLabelFr": "LYON",
+                        "outsideFrance": false,
+                        "stationCode": "FRLPD",
+                        "stationLabel": "LYON PART DIEU",
+                        "stationLabelFr": "LYON PART DIEU",
+                        "zipCode": "69"
+                    },
+                    "duration": 7020000,
+                    "fullIndicator": null,
+                    "hasPerturbations": false,
+                    "hostIndicator": null,
+                    "id": 1,
+                    "inventory": "wdi",
+                    "onboardServices": [
+                        "HANDICAPE",
+                        "VOITURE_BAR",
+                        "WIFI"
+                    ],
+                    "origin": "PARIS GARE DE LYON",
+                    "originCode": "FRPLY",
+                    "originDetail": {
+                        "cityCode": "FRPAR",
+                        "cityLabel": "PARIS",
+                        "cityLabelFr": "PARIS",
+                        "outsideFrance": false,
+                        "stationCode": "FRPLY",
+                        "stationLabel": "PARIS GARE DE LYON",
+                        "stationLabelFr": "PARIS GARE DE LYON",
+                        "zipCode": "75"
+                    },
+                    "realTimeInformations": null,
+                    "seatmapAvailable": true,
+                    "services": [],
+                    "showRating": false,
+                    "tctCodeList": [],
+                    "ticketProvider": "RR",
+                    "trainEquipment": null,
+                    "trainNumber": "6685",
+                    "trainPeriod": "BLUE",
+                    "trainType": "TGD",
+                    "transporter": "TGV",
+                    "transporterRating": null,
+                    "vehicleType": "TRAIN"
+                },
+                {
+                    "arrivalDate": "2017-10-14T17:16:00",
+                    "availablePhysicalSpaces": [
+                        "A",
+                        "B"
+                    ],
+                    "baseClasses": null,
+                    "bookingType": "RN",
+                    "boundaryPoint": null,
+                    "carrierCode": "SN",
+                    "departureDate": "2017-10-14T15:36:00",
+                    "destination": "MARSEILLE SAINT CHARLES",
+                    "destinationCode": "FRMSC",
+                    "destinationDetail": {
+                        "cityCode": "FRMRS",
+                        "cityLabel": "MARSEILLE",
+                        "cityLabelFr": "MARSEILLE",
+                        "outsideFrance": false,
+                        "stationCode": "FRMSC",
+                        "stationLabel": "MARSEILLE SAINT CHARLES",
+                        "stationLabelFr": "MARSEILLE SAINT CHARLES",
+                        "zipCode": "13"
+                    },
+                    "duration": 6000000,
+                    "fullIndicator": null,
+                    "hasPerturbations": false,
+                    "hostIndicator": null,
+                    "id": 2,
+                    "inventory": "wdi",
+                    "onboardServices": [
+                        "HANDICAPE",
+                        "VOITURE_BAR"
+                    ],
+                    "origin": "LYON PART DIEU",
+                    "originCode": "FRLPD",
+                    "originDetail": {
+                        "cityCode": "FRLYS",
+                        "cityLabel": "LYON",
+                        "cityLabelFr": "LYON",
+                        "outsideFrance": false,
+                        "stationCode": "FRLPD",
+                        "stationLabel": "LYON PART DIEU",
+                        "stationLabelFr": "LYON PART DIEU",
+                        "zipCode": "69"
+                    },
+                    "realTimeInformations": null,
+                    "seatmapAvailable": true,
+                    "services": [],
+                    "showRating": false,
+                    "tctCodeList": [],
+                    "ticketProvider": "RR",
+                    "trainEquipment": null,
+                    "trainNumber": "6837",
+                    "trainPeriod": "BLUE",
+                    "trainType": "TGD",
+                    "transporter": "TGV",
+                    "transporterRating": null,
+                    "vehicleType": "TRAIN"
+                }
+            ],
+            "transactionId": 0,
+            "transporters": [
+                "TGV",
+                "TGV"
+            ],
+            "unsellableReason": "NONE"
+        },
+        {
+            "arrivalDate": "2017-10-14T17:46:00",
+            "containsTgvPopFares": false,
+            "departureDate": "2017-10-14T14:19:00",
+            "destination": "MARSEILLE SAINT CHARLES",
+            "destinationCode": "FRMSC",
+            "duration": 12420000,
+            "hasPerturbations": false,
+            "id": "ee68bd56-1f14-4a2d-a204-66bf5c07466f",
+            "journeyId": "2",
+            "origin": "PARIS GARE DE LYON",
+            "originCode": "FRPLY",
+            "priceProposals": {
+                "SEMIFLEX": {
+                    "amount": 70.0,
+                    "amountWithMandatorySpaceComfort": 70.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": false,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "3",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "T",
+                                    "cosLevel": null,
+                                    "fakeFare": false,
+                                    "fareCode": "T2TENU00",
+                                    "fareCondition": "<a onclick=\"window.open('http://ventes.idtgv.com/Popup/Echange/iDTGV-fr-FR.html','ensavoirplus','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=1, copyhistory=0, menuBar=0, width=535, height=400, left=0, top=0');return false;\" href=\"http://ventes.idtgv.com/Popup/Echange/iDTGV-fr-FR.html\">Echange possible jusqu&rsquo;\u00e0 5 heures avant le d\u00e9part de votre train, avec frais de 15 euros si vous \u00e9changez sur Internet, 18 euros pour les autres modes d&rsquo;\u00e9change. Si vous changez pour un billet de 1\u00e8re classe sur le m\u00eame train, le m\u00eame jour et la m\u00eame heure, les frais d&rsquo;\u00e9changes sont gratuits.</a> Non remboursable. Paiement en ligne. <b>BILLET \u00c0 IMPRIMER VOUS-M\u00caME. </b>Tarif exclusif Internet.",
+                                    "fareName": "IDTGV - 2eme classe",
+                                    "fareSequence": 1,
+                                    "fareSpecificRule": "1TNU",
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "ADT",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 3
+                                },
+                                {
+                                    "classOfService": "BG",
+                                    "cosLevel": "12",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 4
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 70.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "",
+                            "flexibility": 2,
+                            "inventory": "idtgv",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": false,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "B",
+                                        "currency": "EUR",
+                                        "description": "Quiet comfort space",
+                                        "name": "BIEN_ETRE",
+                                        "price": 0.0,
+                                        "type": null,
+                                        "value": "IDZEN"
+                                    },
+                                    {
+                                        "code": "C",
+                                        "currency": "EUR",
+                                        "description": "Space Conviviality",
+                                        "name": "CONVIVIALITY",
+                                        "price": 0.0,
+                                        "type": null,
+                                        "value": "IDZAP"
+                                    }
+                                ],
+                                "decks": [],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [],
+                                "segmentId": 3,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        },
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [],
+                                "decks": [],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU"
+                                ],
+                                "segmentId": 4,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "SEMIFLEX"
+                },
+                "UPSELL": {
+                    "amount": 81.9,
+                    "amountWithMandatorySpaceComfort": 81.9,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": false,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "4",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "I",
+                                    "cosLevel": null,
+                                    "fakeFare": false,
+                                    "fareCode": "I1TENU00",
+                                    "fareCondition": "<a onclick=\"window.open('http://ventes.idtgv.com/Popup/Echange/iDTGV-fr-FR.html','ensavoirplus','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=1, copyhistory=0, menuBar=0, width=535, height=400, left=0, top=0');return false;\" href=\"http://ventes.idtgv.com/Popup/Echange/iDTGV-fr-FR.html\">Echange possible jusqu&rsquo;\u00e0 5 heures avant le d\u00e9part de votre train, avec frais de 15 euros si vous \u00e9changez sur Internet, 18 euros pour les autres modes d&rsquo;\u00e9change.</a> Non remboursable. Paiement en ligne. <b>BILLET \u00c0 IMPRIMER VOUS-M\u00caME. </b>Tarif exclusif Internet.",
+                                    "fareName": "IDTGV - 1ere classe",
+                                    "fareSequence": 1,
+                                    "fareSpecificRule": "1TNU",
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "ADT",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 3
+                                },
+                                {
+                                    "classOfService": "AG",
+                                    "cosLevel": "17",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 4
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 81.9,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "",
+                            "flexibility": 2,
+                            "inventory": "idtgv",
+                            "overbooked": false,
+                            "physicalSpace": "A",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": false,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "B",
+                                        "currency": "EUR",
+                                        "description": "Quiet comfort space",
+                                        "name": "BIEN_ETRE",
+                                        "price": 0.0,
+                                        "type": null,
+                                        "value": "IDZEN"
+                                    },
+                                    {
+                                        "code": "C",
+                                        "currency": "EUR",
+                                        "description": "Space Conviviality",
+                                        "name": "CONVIVIALITY",
+                                        "price": 0.0,
+                                        "type": null,
+                                        "value": "IDZAP"
+                                    }
+                                ],
+                                "decks": [],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [],
+                                "segmentId": 3,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "FIRST"
+                        },
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "A",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [],
+                                "decks": [],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_VIS_A_VIS",
+                                    "DUO_COTE_A_COTE",
+                                    "SOLO"
+                                ],
+                                "segmentId": 4,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "FIRST"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "UPSELL"
+                }
+            },
+            "pushPrice": null,
+            "pushProposal": false,
+            "pushProposalType": null,
+            "realTimeInformations": null,
+            "segments": [
+                {
+                    "arrivalDate": "2017-10-14T17:14:00",
+                    "availablePhysicalSpaces": [
+                        "A",
+                        "B"
+                    ],
+                    "baseClasses": null,
+                    "bookingType": "RN",
+                    "boundaryPoint": null,
+                    "carrierCode": "2C",
+                    "departureDate": "2017-10-14T14:19:00",
+                    "destination": "AIX EN PROVENCE TGV",
+                    "destinationCode": "FRAIE",
+                    "destinationDetail": {
+                        "cityCode": null,
+                        "cityLabel": null,
+                        "cityLabelFr": null,
+                        "outsideFrance": false,
+                        "stationCode": "FRAIE",
+                        "stationLabel": "AIX EN PROVENCE TGV",
+                        "stationLabelFr": "AIX EN PROVENCE TGV",
+                        "zipCode": "13592"
+                    },
+                    "duration": 10500000,
+                    "fullIndicator": null,
+                    "hasPerturbations": false,
+                    "hostIndicator": null,
+                    "id": 3,
+                    "inventory": "idtgv",
+                    "onboardServices": [
+                        "IDTGV_HANDICAPE",
+                        "IDTGV_VOITURE_BAR"
+                    ],
+                    "origin": "PARIS GARE DE LYON",
+                    "originCode": "FRPLY",
+                    "originDetail": {
+                        "cityCode": "FRPAR",
+                        "cityLabel": "PARIS",
+                        "cityLabelFr": "PARIS",
+                        "outsideFrance": false,
+                        "stationCode": "FRPLY",
+                        "stationLabel": "PARIS GARE DE LYON",
+                        "stationLabelFr": "PARIS GARE DE LYON",
+                        "zipCode": "75"
+                    },
+                    "realTimeInformations": null,
+                    "seatmapAvailable": false,
+                    "services": [],
+                    "showRating": true,
+                    "tctCodeList": [],
+                    "ticketProvider": "idtgv",
+                    "trainEquipment": null,
+                    "trainNumber": "2903",
+                    "trainPeriod": "NONE",
+                    "trainType": "EDU",
+                    "transporter": "iDTGV",
+                    "transporterRating": 3.730769230769231,
+                    "vehicleType": "TRAIN"
+                },
+                {
+                    "arrivalDate": "2017-10-14T17:46:00",
+                    "availablePhysicalSpaces": [
+                        "A",
+                        "B"
+                    ],
+                    "baseClasses": null,
+                    "bookingType": "RN",
+                    "boundaryPoint": null,
+                    "carrierCode": "SN",
+                    "departureDate": "2017-10-14T17:34:00",
+                    "destination": "MARSEILLE SAINT CHARLES",
+                    "destinationCode": "FRMSC",
+                    "destinationDetail": {
+                        "cityCode": "FRMRS",
+                        "cityLabel": "MARSEILLE",
+                        "cityLabelFr": "MARSEILLE",
+                        "outsideFrance": false,
+                        "stationCode": "FRMSC",
+                        "stationLabel": "MARSEILLE SAINT CHARLES",
+                        "stationLabelFr": "MARSEILLE SAINT CHARLES",
+                        "zipCode": "13"
+                    },
+                    "duration": 720000,
+                    "fullIndicator": null,
+                    "hasPerturbations": false,
+                    "hostIndicator": null,
+                    "id": 4,
+                    "inventory": "wdi",
+                    "onboardServices": [
+                        "HANDICAPE",
+                        "VOITURE_BAR"
+                    ],
+                    "origin": "AIX EN PROVENCE TGV",
+                    "originCode": "FRAIE",
+                    "originDetail": {
+                        "cityCode": null,
+                        "cityLabel": null,
+                        "cityLabelFr": null,
+                        "outsideFrance": false,
+                        "stationCode": "FRAIE",
+                        "stationLabel": "AIX EN PROVENCE TGV",
+                        "stationLabelFr": "AIX EN PROVENCE TGV",
+                        "zipCode": "13592"
+                    },
+                    "realTimeInformations": null,
+                    "seatmapAvailable": false,
+                    "services": [],
+                    "showRating": false,
+                    "tctCodeList": [],
+                    "ticketProvider": "RR",
+                    "trainEquipment": null,
+                    "trainNumber": "5028",
+                    "trainPeriod": "BLUE",
+                    "trainType": "TGB",
+                    "transporter": "TGV",
+                    "transporterRating": null,
+                    "vehicleType": "TRAIN"
+                }
+            ],
+            "transactionId": 0,
+            "transporters": [
+                "iDTGV",
+                "TGV"
+            ],
+            "unsellableReason": "NONE"
+        },
+        {
+            "arrivalDate": null,
+            "containsTgvPopFares": false,
+            "departureDate": "2017-10-14T14:19:00",
+            "destination": "MARSEILLE",
+            "destinationCode": "spey63",
+            "duration": null,
+            "hasPerturbations": false,
+            "id": "f98e45f2-d69b-4172-9531-def6236fcc4c",
+            "journeyId": "pushBus",
+            "origin": "PARIS",
+            "originCode": "u09tvm",
+            "priceProposals": {},
+            "pushPrice": 24.0,
+            "pushProposal": true,
+            "pushProposalType": "BUS",
+            "realTimeInformations": null,
+            "segments": [
+                {
+                    "arrivalDate": null,
+                    "availablePhysicalSpaces": [],
+                    "baseClasses": null,
+                    "bookingType": null,
+                    "boundaryPoint": null,
+                    "carrierCode": null,
+                    "departureDate": null,
+                    "destination": null,
+                    "destinationCode": "spey63",
+                    "destinationDetail": {
+                        "cityCode": null,
+                        "cityLabel": null,
+                        "cityLabelFr": null,
+                        "outsideFrance": true,
+                        "stationCode": null,
+                        "stationLabel": null,
+                        "stationLabelFr": null,
+                        "zipCode": null
+                    },
+                    "duration": null,
+                    "fullIndicator": null,
+                    "hasPerturbations": false,
+                    "hostIndicator": null,
+                    "id": null,
+                    "inventory": null,
+                    "onboardServices": [],
+                    "origin": null,
+                    "originCode": "u09tvm",
+                    "originDetail": {
+                        "cityCode": null,
+                        "cityLabel": null,
+                        "cityLabelFr": null,
+                        "outsideFrance": true,
+                        "stationCode": null,
+                        "stationLabel": null,
+                        "stationLabelFr": null,
+                        "zipCode": null
+                    },
+                    "realTimeInformations": null,
+                    "seatmapAvailable": false,
+                    "services": null,
+                    "showRating": false,
+                    "tctCodeList": null,
+                    "ticketProvider": null,
+                    "trainEquipment": null,
+                    "trainNumber": null,
+                    "trainPeriod": null,
+                    "trainType": null,
+                    "transporter": "Train",
+                    "transporterRating": null,
+                    "vehicleType": null
+                }
+            ],
+            "transactionId": 0,
+            "transporters": [
+                "Train"
+            ],
+            "unsellableReason": null
+        },
+        {
+            "arrivalDate": "2017-10-14T17:54:00",
+            "containsTgvPopFares": false,
+            "departureDate": "2017-10-14T14:37:00",
+            "destination": "MARSEILLE ST CHARLES",
+            "destinationCode": "FRMSC",
+            "duration": 11820000,
+            "hasPerturbations": false,
+            "id": "771f9a44-1315-4a2b-b65d-7f749c69f70c",
+            "journeyId": "4",
+            "origin": "PARIS GARE DE LYON",
+            "originCode": "FRPLY",
+            "priceProposals": {
+                "SEMIFLEX": {
+                    "amount": 43.0,
+                    "amountWithMandatorySpaceComfort": 43.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": false,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "5",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "P",
+                                    "cosLevel": null,
+                                    "fakeFare": false,
+                                    "fareCode": "P2TEMU00",
+                                    "fareCondition": "<a onclick=\"window.open('http://ventes.idtgv.com/Popup/Echange/iDTGV-fr-FR.html','ensavoirplus','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=1, copyhistory=0, menuBar=0, width=535, height=400, left=0, top=0');return false;\" href=\"http://ventes.idtgv.com/Popup/Echange/iDTGV-fr-FR.html\">Echange possible jusqu&rsquo;\u00e0 5 heures avant le d\u00e9part de votre train, avec frais de 15 euros si vous \u00e9changez sur Internet, 18 euros pour les autres modes d&rsquo;\u00e9change. Si vous changez pour un billet de 1\u00e8re classe sur le m\u00eame train, le m\u00eame jour et la m\u00eame heure, les frais d&rsquo;\u00e9changes sont gratuits.</a> Non remboursable. Paiement en ligne. <b>BILLET \u00c0 IMPRIMER VOUS-M\u00caME. </b>Tarif exclusif Internet.",
+                                    "fareName": "IDTGV - 2eme classe",
+                                    "fareSequence": 1,
+                                    "fareSpecificRule": "1TMU",
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "ADT",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 7
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 43.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "",
+                            "flexibility": 2,
+                            "inventory": "idtgv",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": false,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "B",
+                                        "currency": "EUR",
+                                        "description": "Quiet comfort space",
+                                        "name": "BIEN_ETRE",
+                                        "price": 0.0,
+                                        "type": null,
+                                        "value": "IDZEN"
+                                    },
+                                    {
+                                        "code": "C",
+                                        "currency": "EUR",
+                                        "description": "Space Conviviality",
+                                        "name": "CONVIVIALITY",
+                                        "price": 0.0,
+                                        "type": null,
+                                        "value": "IDZAP"
+                                    }
+                                ],
+                                "decks": [],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [],
+                                "segmentId": 7,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "SEMIFLEX"
+                },
+                "UPSELL": {
+                    "amount": 47.0,
+                    "amountWithMandatorySpaceComfort": 47.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": false,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "6",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "E",
+                                    "cosLevel": null,
+                                    "fakeFare": false,
+                                    "fareCode": "E1TEMU00",
+                                    "fareCondition": "<a onclick=\"window.open('http://ventes.idtgv.com/Popup/Echange/iDTGV-fr-FR.html','ensavoirplus','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=1, copyhistory=0, menuBar=0, width=535, height=400, left=0, top=0');return false;\" href=\"http://ventes.idtgv.com/Popup/Echange/iDTGV-fr-FR.html\">Echange possible jusqu&rsquo;\u00e0 5 heures avant le d\u00e9part de votre train, avec frais de 15 euros si vous \u00e9changez sur Internet, 18 euros pour les autres modes d&rsquo;\u00e9change.</a> Non remboursable. Paiement en ligne. <b>BILLET \u00c0 IMPRIMER VOUS-M\u00caME. </b>Tarif exclusif Internet.",
+                                    "fareName": "IDTGV - 1ere classe",
+                                    "fareSequence": 1,
+                                    "fareSpecificRule": "1TMU",
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "ADT",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 7
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 47.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "",
+                            "flexibility": 2,
+                            "inventory": "idtgv",
+                            "overbooked": false,
+                            "physicalSpace": "A",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": false,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "B",
+                                        "currency": "EUR",
+                                        "description": "Quiet comfort space",
+                                        "name": "BIEN_ETRE",
+                                        "price": 0.0,
+                                        "type": null,
+                                        "value": "IDZEN"
+                                    },
+                                    {
+                                        "code": "C",
+                                        "currency": "EUR",
+                                        "description": "Space Conviviality",
+                                        "name": "CONVIVIALITY",
+                                        "price": 0.0,
+                                        "type": null,
+                                        "value": "IDZAP"
+                                    }
+                                ],
+                                "decks": [],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [],
+                                "segmentId": 7,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "FIRST"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "UPSELL"
+                }
+            },
+            "pushPrice": null,
+            "pushProposal": false,
+            "pushProposalType": null,
+            "realTimeInformations": null,
+            "segments": [
+                {
+                    "arrivalDate": "2017-10-14T17:54:00",
+                    "availablePhysicalSpaces": [
+                        "A",
+                        "B"
+                    ],
+                    "baseClasses": null,
+                    "bookingType": "RN",
+                    "boundaryPoint": null,
+                    "carrierCode": "2C",
+                    "departureDate": "2017-10-14T14:37:00",
+                    "destination": "MARSEILLE ST CHARLES",
+                    "destinationCode": "FRMSC",
+                    "destinationDetail": {
+                        "cityCode": "FRMRS",
+                        "cityLabel": "MARSEILLE",
+                        "cityLabelFr": "MARSEILLE",
+                        "outsideFrance": false,
+                        "stationCode": "FRMSC",
+                        "stationLabel": "MARSEILLE SAINT CHARLES",
+                        "stationLabelFr": "MARSEILLE SAINT CHARLES",
+                        "zipCode": "13"
+                    },
+                    "duration": 11820000,
+                    "fullIndicator": null,
+                    "hasPerturbations": false,
+                    "hostIndicator": null,
+                    "id": 7,
+                    "inventory": "idtgv",
+                    "onboardServices": [
+                        "IDTGV_HANDICAPE",
+                        "IDTGV_VOITURE_BAR"
+                    ],
+                    "origin": "PARIS GARE DE LYON",
+                    "originCode": "FRPLY",
+                    "originDetail": {
+                        "cityCode": "FRPAR",
+                        "cityLabel": "PARIS",
+                        "cityLabelFr": "PARIS",
+                        "outsideFrance": false,
+                        "stationCode": "FRPLY",
+                        "stationLabel": "PARIS GARE DE LYON",
+                        "stationLabelFr": "PARIS GARE DE LYON",
+                        "zipCode": "75"
+                    },
+                    "realTimeInformations": null,
+                    "seatmapAvailable": false,
+                    "services": [],
+                    "showRating": true,
+                    "tctCodeList": [],
+                    "ticketProvider": "idtgv",
+                    "trainEquipment": null,
+                    "trainNumber": "2913",
+                    "trainPeriod": "NONE",
+                    "trainType": "DUP",
+                    "transporter": "iDTGV",
+                    "transporterRating": 3.730769230769231,
+                    "vehicleType": "TRAIN"
+                }
+            ],
+            "transactionId": 0,
+            "transporters": [
+                "iDTGV"
+            ],
+            "unsellableReason": "NONE"
+        },
+        {
+            "arrivalDate": "2017-10-14T17:54:00",
+            "containsTgvPopFares": false,
+            "departureDate": "2017-10-14T14:37:00",
+            "destination": "MARSEILLE SAINT CHARLES",
+            "destinationCode": "FRMSC",
+            "duration": 11820000,
+            "hasPerturbations": false,
+            "id": "94b2189b-4be2-4eb7-8af8-65c204ae3d69",
+            "journeyId": "5",
+            "origin": "PARIS GARE DE LYON",
+            "originCode": "FRPLY",
+            "priceProposals": {
+                "FLEX": {
+                    "amount": 102.0,
+                    "amountWithMandatorySpaceComfort": 102.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": true,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "9",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "BF",
+                                    "cosLevel": "04",
+                                    "fakeFare": false,
+                                    "fareCode": "FA00",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable sans frais jusqu'au d\u00e9part et jusqu'\u00e0 deux heures apr\u00e8s d\u00e9part en gare de d\u00e9part.  En mobilit\u00e9, \u00e9change sans frais jusqu'\u00e0 1h apr\u00e8s le d\u00e9part via l'application TGV Pro ou par t\u00e9l\u00e9phone au 3635.",
+                                    "fareName": "TGV PRO 2nde",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 8
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 102.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "AFF",
+                            "flexibility": 3,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "MOM",
+                                        "currency": "EUR",
+                                        "description": "Espace 2nde classe prioritairement r\u00e9serv\u00e9 aux familles",
+                                        "name": "Espace Familles",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_FAMILLE"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_COTE_A_COTE"
+                                ],
+                                "segmentId": 8,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "FLEX"
+                },
+                "SEMIFLEX": {
+                    "amount": 81.0,
+                    "amountWithMandatorySpaceComfort": 81.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": false,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "7",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "BG",
+                                    "cosLevel": "08",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 8
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 81.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "MOM",
+                                        "currency": "EUR",
+                                        "description": "Espace 2nde classe prioritairement r\u00e9serv\u00e9 aux familles",
+                                        "name": "Espace Familles",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_FAMILLE"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_COTE_A_COTE"
+                                ],
+                                "segmentId": 8,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "SEMIFLEX"
+                },
+                "UPSELL": {
+                    "amount": 91.0,
+                    "amountWithMandatorySpaceComfort": 91.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": false,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "8",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "AG",
+                                    "cosLevel": "12",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 8
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 91.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "A",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "CAL",
+                                        "currency": "EUR",
+                                        "description": "Espace 1\u00e8re classe d\u00e9di\u00e9 au silence et @ la tranquillit\u00e9 des voyageurs",
+                                        "name": "Espace Calme 1\u00e8re",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_CALME"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_VIS_A_VIS",
+                                    "DUO_COTE_A_COTE",
+                                    "SOLO"
+                                ],
+                                "segmentId": 8,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "FIRST"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "UPSELL"
+                }
+            },
+            "pushPrice": null,
+            "pushProposal": false,
+            "pushProposalType": null,
+            "realTimeInformations": null,
+            "segments": [
+                {
+                    "arrivalDate": "2017-10-14T17:54:00",
+                    "availablePhysicalSpaces": [
+                        "A",
+                        "B"
+                    ],
+                    "baseClasses": null,
+                    "bookingType": "RN",
+                    "boundaryPoint": null,
+                    "carrierCode": "SN",
+                    "departureDate": "2017-10-14T14:37:00",
+                    "destination": "MARSEILLE SAINT CHARLES",
+                    "destinationCode": "FRMSC",
+                    "destinationDetail": {
+                        "cityCode": "FRMRS",
+                        "cityLabel": "MARSEILLE",
+                        "cityLabelFr": "MARSEILLE",
+                        "outsideFrance": false,
+                        "stationCode": "FRMSC",
+                        "stationLabel": "MARSEILLE SAINT CHARLES",
+                        "stationLabelFr": "MARSEILLE SAINT CHARLES",
+                        "zipCode": "13"
+                    },
+                    "duration": 11820000,
+                    "fullIndicator": null,
+                    "hasPerturbations": false,
+                    "hostIndicator": null,
+                    "id": 8,
+                    "inventory": "wdi",
+                    "onboardServices": [
+                        "HANDICAPE",
+                        "VOITURE_BAR"
+                    ],
+                    "origin": "PARIS GARE DE LYON",
+                    "originCode": "FRPLY",
+                    "originDetail": {
+                        "cityCode": "FRPAR",
+                        "cityLabel": "PARIS",
+                        "cityLabelFr": "PARIS",
+                        "outsideFrance": false,
+                        "stationCode": "FRPLY",
+                        "stationLabel": "PARIS GARE DE LYON",
+                        "stationLabelFr": "PARIS GARE DE LYON",
+                        "zipCode": "75"
+                    },
+                    "realTimeInformations": null,
+                    "seatmapAvailable": true,
+                    "services": [],
+                    "showRating": false,
+                    "tctCodeList": [],
+                    "ticketProvider": "RR",
+                    "trainEquipment": null,
+                    "trainNumber": "6145",
+                    "trainPeriod": "BLUE",
+                    "trainType": "TGD",
+                    "transporter": "TGV",
+                    "transporterRating": null,
+                    "vehicleType": "TRAIN"
+                }
+            ],
+            "transactionId": 0,
+            "transporters": [
+                "TGV"
+            ],
+            "unsellableReason": "NONE"
+        },
+        {
+            "arrivalDate": "2017-10-14T18:57:00",
+            "containsTgvPopFares": false,
+            "departureDate": "2017-10-14T15:37:00",
+            "destination": "MARSEILLE SAINT CHARLES",
+            "destinationCode": "FRMSC",
+            "duration": 12000000,
+            "hasPerturbations": false,
+            "id": "cf289d65-423a-4b13-b187-74a9828d7c7c",
+            "journeyId": "6",
+            "origin": "PARIS GARE DE LYON",
+            "originCode": "FRPLY",
+            "priceProposals": {
+                "FLEX": {
+                    "amount": 102.0,
+                    "amountWithMandatorySpaceComfort": 102.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": true,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "12",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "BF",
+                                    "cosLevel": "04",
+                                    "fakeFare": false,
+                                    "fareCode": "FA00",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable sans frais jusqu'au d\u00e9part et jusqu'\u00e0 deux heures apr\u00e8s d\u00e9part en gare de d\u00e9part.  En mobilit\u00e9, \u00e9change sans frais jusqu'\u00e0 1h apr\u00e8s le d\u00e9part via l'application TGV Pro ou par t\u00e9l\u00e9phone au 3635.",
+                                    "fareName": "TGV PRO 2nde",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 9
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 102.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "AFF",
+                            "flexibility": 3,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "MOM",
+                                        "currency": "EUR",
+                                        "description": "Espace 2nde classe prioritairement r\u00e9serv\u00e9 aux familles",
+                                        "name": "Espace Familles",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_FAMILLE"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_COTE_A_COTE"
+                                ],
+                                "segmentId": 9,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "FLEX"
+                },
+                "SEMIFLEX": {
+                    "amount": 76.0,
+                    "amountWithMandatorySpaceComfort": 76.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": false,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "10",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "BG",
+                                    "cosLevel": "09",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 9
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 76.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "MOM",
+                                        "currency": "EUR",
+                                        "description": "Espace 2nde classe prioritairement r\u00e9serv\u00e9 aux familles",
+                                        "name": "Espace Familles",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_FAMILLE"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_COTE_A_COTE"
+                                ],
+                                "segmentId": 9,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "SEMIFLEX"
+                },
+                "UPSELL": {
+                    "amount": 87.0,
+                    "amountWithMandatorySpaceComfort": 87.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": false,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "11",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "AG",
+                                    "cosLevel": "13",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 9
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 87.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "A",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "CAL",
+                                        "currency": "EUR",
+                                        "description": "Espace 1\u00e8re classe d\u00e9di\u00e9 au silence et @ la tranquillit\u00e9 des voyageurs",
+                                        "name": "Espace Calme 1\u00e8re",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_CALME"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_VIS_A_VIS",
+                                    "DUO_COTE_A_COTE",
+                                    "SOLO"
+                                ],
+                                "segmentId": 9,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "FIRST"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "UPSELL"
+                }
+            },
+            "pushPrice": null,
+            "pushProposal": false,
+            "pushProposalType": null,
+            "realTimeInformations": null,
+            "segments": [
+                {
+                    "arrivalDate": "2017-10-14T18:57:00",
+                    "availablePhysicalSpaces": [
+                        "A",
+                        "B"
+                    ],
+                    "baseClasses": null,
+                    "bookingType": "RN",
+                    "boundaryPoint": null,
+                    "carrierCode": "SN",
+                    "departureDate": "2017-10-14T15:37:00",
+                    "destination": "MARSEILLE SAINT CHARLES",
+                    "destinationCode": "FRMSC",
+                    "destinationDetail": {
+                        "cityCode": "FRMRS",
+                        "cityLabel": "MARSEILLE",
+                        "cityLabelFr": "MARSEILLE",
+                        "outsideFrance": false,
+                        "stationCode": "FRMSC",
+                        "stationLabel": "MARSEILLE SAINT CHARLES",
+                        "stationLabelFr": "MARSEILLE SAINT CHARLES",
+                        "zipCode": "13"
+                    },
+                    "duration": 12000000,
+                    "fullIndicator": null,
+                    "hasPerturbations": false,
+                    "hostIndicator": null,
+                    "id": 9,
+                    "inventory": "wdi",
+                    "onboardServices": [
+                        "HANDICAPE",
+                        "VOITURE_BAR"
+                    ],
+                    "origin": "PARIS GARE DE LYON",
+                    "originCode": "FRPLY",
+                    "originDetail": {
+                        "cityCode": "FRPAR",
+                        "cityLabel": "PARIS",
+                        "cityLabelFr": "PARIS",
+                        "outsideFrance": false,
+                        "stationCode": "FRPLY",
+                        "stationLabel": "PARIS GARE DE LYON",
+                        "stationLabelFr": "PARIS GARE DE LYON",
+                        "zipCode": "75"
+                    },
+                    "realTimeInformations": null,
+                    "seatmapAvailable": true,
+                    "services": [],
+                    "showRating": false,
+                    "tctCodeList": [],
+                    "ticketProvider": "RR",
+                    "trainEquipment": null,
+                    "trainNumber": "6117",
+                    "trainPeriod": "BLUE",
+                    "trainType": "TGD",
+                    "transporter": "TGV",
+                    "transporterRating": null,
+                    "vehicleType": "TRAIN"
+                }
+            ],
+            "transactionId": 0,
+            "transporters": [
+                "TGV"
+            ],
+            "unsellableReason": "NONE"
+        },
+        {
+            "arrivalDate": "2017-10-14T19:49:00",
+            "containsTgvPopFares": false,
+            "departureDate": "2017-10-14T16:07:00",
+            "destination": "MARSEILLE SAINT CHARLES",
+            "destinationCode": "FRMSC",
+            "duration": 13320000,
+            "hasPerturbations": false,
+            "id": "16874d60-bc08-40ac-a25d-7479a57c0e17",
+            "journeyId": "7",
+            "origin": "PARIS GARE DE LYON",
+            "originCode": "FRPLY",
+            "priceProposals": {
+                "FLEX": {
+                    "amount": 143.7,
+                    "amountWithMandatorySpaceComfort": 143.7,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": true,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "15",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "BF",
+                                    "cosLevel": "01",
+                                    "fakeFare": false,
+                                    "fareCode": "FA00",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable sans frais jusqu'au d\u00e9part et jusqu'\u00e0 deux heures apr\u00e8s d\u00e9part en gare de d\u00e9part.  En mobilit\u00e9, \u00e9change sans frais jusqu'\u00e0 1h apr\u00e8s le d\u00e9part via l'application TGV Pro ou par t\u00e9l\u00e9phone au 3635.",
+                                    "fareName": "TGV PRO 2nde",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 10
+                                },
+                                {
+                                    "classOfService": "BF",
+                                    "cosLevel": "04",
+                                    "fakeFare": false,
+                                    "fareCode": "FA00",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable sans frais jusqu'au d\u00e9part et jusqu'\u00e0 deux heures apr\u00e8s d\u00e9part en gare de d\u00e9part.  En mobilit\u00e9, \u00e9change sans frais jusqu'\u00e0 1h apr\u00e8s le d\u00e9part via l'application TGV Pro ou par t\u00e9l\u00e9phone au 3635.",
+                                    "fareName": "TGV PRO 2nde",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 11
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 143.7,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "AFF",
+                            "flexibility": 3,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "MOM",
+                                        "currency": "EUR",
+                                        "description": "Espace 2nde classe prioritairement r\u00e9serv\u00e9 aux familles",
+                                        "name": "Espace Familles",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_FAMILLE"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_COTE_A_COTE"
+                                ],
+                                "segmentId": 10,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        },
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "AFF",
+                            "flexibility": 3,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "MOM",
+                                        "currency": "EUR",
+                                        "description": "Espace 2nde classe prioritairement r\u00e9serv\u00e9 aux familles",
+                                        "name": "Espace Familles",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_FAMILLE"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_COTE_A_COTE"
+                                ],
+                                "segmentId": 11,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "FLEX"
+                },
+                "SEMIFLEX": {
+                    "amount": 121.0,
+                    "amountWithMandatorySpaceComfort": 121.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": false,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "13",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "BG",
+                                    "cosLevel": "02",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 10
+                                },
+                                {
+                                    "classOfService": "BG",
+                                    "cosLevel": "12",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 11
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 121.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "MOM",
+                                        "currency": "EUR",
+                                        "description": "Espace 2nde classe prioritairement r\u00e9serv\u00e9 aux familles",
+                                        "name": "Espace Familles",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_FAMILLE"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_COTE_A_COTE"
+                                ],
+                                "segmentId": 10,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        },
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "MOM",
+                                        "currency": "EUR",
+                                        "description": "Espace 2nde classe prioritairement r\u00e9serv\u00e9 aux familles",
+                                        "name": "Espace Familles",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_FAMILLE"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_COTE_A_COTE"
+                                ],
+                                "segmentId": 11,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "SEMIFLEX"
+                },
+                "UPSELL": {
+                    "amount": 140.8,
+                    "amountWithMandatorySpaceComfort": 140.8,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": false,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "14",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "AG",
+                                    "cosLevel": "05",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 10
+                                },
+                                {
+                                    "classOfService": "AG",
+                                    "cosLevel": "17",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 11
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 140.8,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "A",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "CAL",
+                                        "currency": "EUR",
+                                        "description": "Espace 1\u00e8re classe d\u00e9di\u00e9 au silence et @ la tranquillit\u00e9 des voyageurs",
+                                        "name": "Espace Calme 1\u00e8re",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_CALME"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_VIS_A_VIS",
+                                    "DUO_COTE_A_COTE",
+                                    "SOLO"
+                                ],
+                                "segmentId": 10,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "FIRST"
+                        },
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "A",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "CAL",
+                                        "currency": "EUR",
+                                        "description": "Espace 1\u00e8re classe d\u00e9di\u00e9 au silence et @ la tranquillit\u00e9 des voyageurs",
+                                        "name": "Espace Calme 1\u00e8re",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_CALME"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_VIS_A_VIS",
+                                    "DUO_COTE_A_COTE",
+                                    "SOLO"
+                                ],
+                                "segmentId": 11,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "FIRST"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "UPSELL"
+                }
+            },
+            "pushPrice": null,
+            "pushProposal": false,
+            "pushProposalType": null,
+            "realTimeInformations": null,
+            "segments": [
+                {
+                    "arrivalDate": "2017-10-14T18:19:00",
+                    "availablePhysicalSpaces": [
+                        "A",
+                        "B"
+                    ],
+                    "baseClasses": null,
+                    "bookingType": "RN",
+                    "boundaryPoint": null,
+                    "carrierCode": "SN",
+                    "departureDate": "2017-10-14T16:07:00",
+                    "destination": "VALENCE   GARE TGV",
+                    "destinationCode": "FRVLA",
+                    "destinationDetail": {
+                        "cityCode": "FRVAV",
+                        "cityLabel": "VALENCE",
+                        "cityLabelFr": "VALENCE",
+                        "outsideFrance": false,
+                        "stationCode": "FRVLA",
+                        "stationLabel": "VALENCE   GARE TGV",
+                        "stationLabelFr": "VALENCE   GARE TGV",
+                        "zipCode": "26"
+                    },
+                    "duration": 7920000,
+                    "fullIndicator": null,
+                    "hasPerturbations": false,
+                    "hostIndicator": null,
+                    "id": 10,
+                    "inventory": "wdi",
+                    "onboardServices": [
+                        "HANDICAPE",
+                        "VOITURE_BAR"
+                    ],
+                    "origin": "PARIS GARE DE LYON",
+                    "originCode": "FRPLY",
+                    "originDetail": {
+                        "cityCode": "FRPAR",
+                        "cityLabel": "PARIS",
+                        "cityLabelFr": "PARIS",
+                        "outsideFrance": false,
+                        "stationCode": "FRPLY",
+                        "stationLabel": "PARIS GARE DE LYON",
+                        "stationLabelFr": "PARIS GARE DE LYON",
+                        "zipCode": "75"
+                    },
+                    "realTimeInformations": null,
+                    "seatmapAvailable": true,
+                    "services": [],
+                    "showRating": false,
+                    "tctCodeList": [],
+                    "ticketProvider": "RR",
+                    "trainEquipment": null,
+                    "trainNumber": "6231",
+                    "trainPeriod": "BLUE",
+                    "trainType": "TGD",
+                    "transporter": "TGV",
+                    "transporterRating": null,
+                    "vehicleType": "TRAIN"
+                },
+                {
+                    "arrivalDate": "2017-10-14T19:49:00",
+                    "availablePhysicalSpaces": [
+                        "A",
+                        "B"
+                    ],
+                    "baseClasses": null,
+                    "bookingType": "RN",
+                    "boundaryPoint": null,
+                    "carrierCode": "SN",
+                    "departureDate": "2017-10-14T18:43:00",
+                    "destination": "MARSEILLE SAINT CHARLES",
+                    "destinationCode": "FRMSC",
+                    "destinationDetail": {
+                        "cityCode": "FRMRS",
+                        "cityLabel": "MARSEILLE",
+                        "cityLabelFr": "MARSEILLE",
+                        "outsideFrance": false,
+                        "stationCode": "FRMSC",
+                        "stationLabel": "MARSEILLE SAINT CHARLES",
+                        "stationLabelFr": "MARSEILLE SAINT CHARLES",
+                        "zipCode": "13"
+                    },
+                    "duration": 3960000,
+                    "fullIndicator": null,
+                    "hasPerturbations": false,
+                    "hostIndicator": null,
+                    "id": 11,
+                    "inventory": "wdi",
+                    "onboardServices": [
+                        "HANDICAPE",
+                        "VOITURE_BAR"
+                    ],
+                    "origin": "VALENCE   GARE TGV",
+                    "originCode": "FRVLA",
+                    "originDetail": {
+                        "cityCode": "FRVAV",
+                        "cityLabel": "VALENCE",
+                        "cityLabelFr": "VALENCE",
+                        "outsideFrance": false,
+                        "stationCode": "FRVLA",
+                        "stationLabel": "VALENCE   GARE TGV",
+                        "stationLabelFr": "VALENCE   GARE TGV",
+                        "zipCode": "26"
+                    },
+                    "realTimeInformations": null,
+                    "seatmapAvailable": true,
+                    "services": [],
+                    "showRating": false,
+                    "tctCodeList": [],
+                    "ticketProvider": "RR",
+                    "trainEquipment": null,
+                    "trainNumber": "6815",
+                    "trainPeriod": "BLUE",
+                    "trainType": "TGD",
+                    "transporter": "TGV",
+                    "transporterRating": null,
+                    "vehicleType": "TRAIN"
+                }
+            ],
+            "transactionId": 0,
+            "transporters": [
+                "TGV",
+                "TGV"
+            ],
+            "unsellableReason": "NONE"
+        },
+        {
+            "arrivalDate": "2017-10-14T20:46:00",
+            "containsTgvPopFares": false,
+            "departureDate": "2017-10-14T16:57:00",
+            "destination": "MARSEILLE SAINT CHARLES",
+            "destinationCode": "FRMSC",
+            "duration": 13740000,
+            "hasPerturbations": false,
+            "id": "9204e100-7d6c-4429-bc0d-ce863830cbee",
+            "journeyId": "8",
+            "origin": "PARIS GARE DE LYON",
+            "originCode": "FRPLY",
+            "priceProposals": {
+                "FLEX": {
+                    "amount": 102.0,
+                    "amountWithMandatorySpaceComfort": 102.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": true,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "17",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "BF",
+                                    "cosLevel": "04",
+                                    "fakeFare": false,
+                                    "fareCode": "FA00",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable sans frais jusqu'au d\u00e9part et jusqu'\u00e0 deux heures apr\u00e8s d\u00e9part en gare de d\u00e9part.  En mobilit\u00e9, \u00e9change sans frais jusqu'\u00e0 1h apr\u00e8s le d\u00e9part via l'application TGV Pro ou par t\u00e9l\u00e9phone au 3635.",
+                                    "fareName": "TGV PRO 2nde",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 12
+                                },
+                                {
+                                    "classOfService": "BF",
+                                    "cosLevel": "04",
+                                    "fakeFare": false,
+                                    "fareCode": "FA00",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable sans frais jusqu'au d\u00e9part et jusqu'\u00e0 deux heures apr\u00e8s d\u00e9part en gare de d\u00e9part.  En mobilit\u00e9, \u00e9change sans frais jusqu'\u00e0 1h apr\u00e8s le d\u00e9part via l'application TGV Pro ou par t\u00e9l\u00e9phone au 3635.",
+                                    "fareName": "TGV PRO 2nde",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 13
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 102.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "AFF",
+                            "flexibility": 3,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "MOM",
+                                        "currency": "EUR",
+                                        "description": "Espace 2nde classe prioritairement r\u00e9serv\u00e9 aux familles",
+                                        "name": "Espace Familles",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_FAMILLE"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_COTE_A_COTE"
+                                ],
+                                "segmentId": 12,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        },
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "AFF",
+                            "flexibility": 3,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "B",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_COTE_A_COTE"
+                                ],
+                                "segmentId": 13,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "SECOND"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "FLEX"
+                },
+                "UPSELL": {
+                    "amount": 96.0,
+                    "amountWithMandatorySpaceComfort": 96.0,
+                    "animalDetails": [],
+                    "appliedDiscount": 0.0,
+                    "bookingFee": null,
+                    "containsTgvPopFare": false,
+                    "currency": "EUR",
+                    "detailMessages": [],
+                    "eligibleForCancellationInsurance": false,
+                    "flags": [],
+                    "flexibleProServices": false,
+                    "hasBicycle": false,
+                    "hasPlacementOptions": true,
+                    "id": "16",
+                    "passengerDetails": [
+                        {
+                            "age": "ADULT",
+                            "clientId": "0",
+                            "encartedPrems": false,
+                            "fareInformations": [
+                                {
+                                    "classOfService": "AG",
+                                    "cosLevel": "11",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 12
+                                },
+                                {
+                                    "classOfService": "AG",
+                                    "cosLevel": "11",
+                                    "fakeFare": false,
+                                    "fareCode": "PR11",
+                                    "fareCondition": "Billet \u00e9changeable et remboursable avec retenue de 5 &euro; \u00e0 compter de 30 jours avant le d\u00e9part, port\u00e9e \u00e0 15 &euro; la veille et le jour du d\u00e9part.  A ces frais s'ajoute l'\u00e9ventuelle diff\u00e9rence de prix entre l'ancien et le nouveau billet.  Billet non \u00e9changeable et non remboursable apr\u00e8s le d\u00e9part.",
+                                    "fareName": "TGV LOISIR",
+                                    "fareSequence": null,
+                                    "fareSpecificRule": null,
+                                    "fixedPriceCuiQuotation": false,
+                                    "passengerClientId": "0",
+                                    "passengerType": "PT00AD",
+                                    "promoCodeApplied": false,
+                                    "returnMandatory": false,
+                                    "segmentId": 13
+                                }
+                            ],
+                            "fidelityCard": "NONE",
+                            "fidelityPoints": null,
+                            "globalPassenger": false,
+                            "passengerType": "HUMAN",
+                            "price": 96.0,
+                            "promoCodeApplied": false,
+                            "promoCodeType": null,
+                            "specificSeatRequired": true,
+                            "travelerId": null
+                        }
+                    ],
+                    "promo": false,
+                    "promoCodeCount": {},
+                    "pushInformation": {
+                        "pushPrice": 0.0,
+                        "pushType": null
+                    },
+                    "referenceAmount": 0.0,
+                    "remainingSeat": null,
+                    "returnMandatory": false,
+                    "segmentDetails": [
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "A",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [
+                                    {
+                                        "code": "CAL",
+                                        "currency": "EUR",
+                                        "description": "Espace 1\u00e8re classe d\u00e9di\u00e9 au silence et @ la tranquillit\u00e9 des voyageurs",
+                                        "name": "Espace Calme 1\u00e8re",
+                                        "price": 0.0,
+                                        "type": "TRAVEL_SPACE",
+                                        "value": "ESPACE_CALME"
+                                    }
+                                ],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_VIS_A_VIS",
+                                    "DUO_COTE_A_COTE",
+                                    "SOLO"
+                                ],
+                                "segmentId": 12,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "FIRST"
+                        },
+                        {
+                            "bikeDetails": null,
+                            "fareSegmentation": "LOS",
+                            "flexibility": 2,
+                            "inventory": "wdi",
+                            "overbooked": false,
+                            "physicalSpace": "A",
+                            "placementOptions": {
+                                "berthLevels": [],
+                                "closeToAvailable": true,
+                                "comfortSpaces": [],
+                                "decks": [
+                                    "HAUT",
+                                    "BAS"
+                                ],
+                                "facingForwardAllowed": false,
+                                "hasChoices": true,
+                                "hasOnlyCloseToAvailable": false,
+                                "hasOnlyOpenPlacementAndCloseToAvailable": false,
+                                "openPlacementAvailable": false,
+                                "seats": [
+                                    "FEN",
+                                    "COU",
+                                    "DUO_VIS_A_VIS",
+                                    "DUO_COTE_A_COTE",
+                                    "SOLO"
+                                ],
+                                "segmentId": 13,
+                                "womenOnlyBerthAvailable": false
+                            },
+                            "spaceComfortMandatory": false,
+                            "travelClass": "FIRST"
+                        }
+                    ],
+                    "spaceComfortMandatory": false,
+                    "type": "UPSELL"
+                }
+            },
+            "pushPrice": null,
+            "pushProposal": false,
+            "pushProposalType": null,
+            "realTimeInformations": null,
+            "segments": [
+                {
+                    "arrivalDate": "2017-10-14T18:56:00",
+                    "availablePhysicalSpaces": [
+                        "A",
+                        "B"
+                    ],
+                    "baseClasses": null,
+                    "bookingType": "RN",
+                    "boundaryPoint": null,
+                    "carrierCode": "SN",
+                    "departureDate": "2017-10-14T16:57:00",
+                    "destination": "LYON PART DIEU",
+                    "destinationCode": "FRLPD",
+                    "destinationDetail": {
+                        "cityCode": "FRLYS",
+                        "cityLabel": "LYON",
+                        "cityLabelFr": "LYON",
+                        "outsideFrance": false,
+                        "stationCode": "FRLPD",
+                        "stationLabel": "LYON PART DIEU",
+                        "stationLabelFr": "LYON PART DIEU",
+                        "zipCode": "69"
+                    },
+                    "duration": 7140000,
+                    "fullIndicator": null,
+                    "hasPerturbations": false,
+                    "hostIndicator": null,
+                    "id": 12,
+                    "inventory": "wdi",
+                    "onboardServices": [
+                        "HANDICAPE",
+                        "VOITURE_BAR",
+                        "WIFI"
+                    ],
+                    "origin": "PARIS GARE DE LYON",
+                    "originCode": "FRPLY",
+                    "originDetail": {
+                        "cityCode": "FRPAR",
+                        "cityLabel": "PARIS",
+                        "cityLabelFr": "PARIS",
+                        "outsideFrance": false,
+                        "stationCode": "FRPLY",
+                        "stationLabel": "PARIS GARE DE LYON",
+                        "stationLabelFr": "PARIS GARE DE LYON",
+                        "zipCode": "75"
+                    },
+                    "realTimeInformations": null,
+                    "seatmapAvailable": true,
+                    "services": [],
+                    "showRating": false,
+                    "tctCodeList": [],
+                    "ticketProvider": "RR",
+                    "trainEquipment": null,
+                    "trainNumber": "6687",
+                    "trainPeriod": "BLUE",
+                    "trainType": "TGD",
+                    "transporter": "TGV",
+                    "transporterRating": null,
+                    "vehicleType": "TRAIN"
+                },
+                {
+                    "arrivalDate": "2017-10-14T20:46:00",
+                    "availablePhysicalSpaces": [
+                        "A",
+                        "B"
+                    ],
+                    "baseClasses": null,
+                    "bookingType": "RN",
+                    "boundaryPoint": null,
+                    "carrierCode": "SN",
+                    "departureDate": "2017-10-14T19:06:00",
+                    "destination": "MARSEILLE SAINT CHARLES",
+                    "destinationCode": "FRMSC",
+                    "destinationDetail": {
+                        "cityCode": "FRMRS",
+                        "cityLabel": "MARSEILLE",
+                        "cityLabelFr": "MARSEILLE",
+                        "outsideFrance": false,
+                        "stationCode": "FRMSC",
+                        "stationLabel": "MARSEILLE SAINT CHARLES",
+                        "stationLabelFr": "MARSEILLE SAINT CHARLES",
+                        "zipCode": "13"
+                    },
+                    "duration": 6000000,
+                    "fullIndicator": null,
+                    "hasPerturbations": false,
+                    "hostIndicator": null,
+                    "id": 13,
+                    "inventory": "wdi",
+                    "onboardServices": [
+                        "HANDICAPE",
+                        "VOITURE_BAR"
+                    ],
+                    "origin": "LYON PART DIEU",
+                    "originCode": "FRLPD",
+                    "originDetail": {
+                        "cityCode": "FRLYS",
+                        "cityLabel": "LYON",
+                        "cityLabelFr": "LYON",
+                        "outsideFrance": false,
+                        "stationCode": "FRLPD",
+                        "stationLabel": "LYON PART DIEU",
+                        "stationLabelFr": "LYON PART DIEU",
+                        "zipCode": "69"
+                    },
+                    "realTimeInformations": null,
+                    "seatmapAvailable": true,
+                    "services": [],
+                    "showRating": false,
+                    "tctCodeList": [],
+                    "ticketProvider": "RR",
+                    "trainEquipment": null,
+                    "trainNumber": "5135",
+                    "trainPeriod": "BLUE",
+                    "trainType": "TGD",
+                    "transporter": "TGV",
+                    "transporterRating": null,
+                    "vehicleType": "TRAIN"
+                }
+            ],
+            "transactionId": 0,
+            "transporters": [
+                "TGV",
+                "TGV"
+            ],
+            "unsellableReason": "NONE"
+        }
+    ],
+    "status": "SUCCESS",
+    "success": true,
+    "technicalErrors": [],
+    "validationErrors": [],
+    "warnings": []
+}
