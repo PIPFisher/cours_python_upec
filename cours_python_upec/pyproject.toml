@@ -10,6 +10,7 @@ packages = [{include = "cours_python_upec"}]
 python = "3.10.12"
 notebook = "^7.0.4"
 pandas = "^2.1.1"
+openpyxl = "^3.1.2"
 
 
 [build-system]
